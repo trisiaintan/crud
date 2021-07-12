@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bungping">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="100dp"
+        android:text="EDIT DATA PENYEWAAN"
+        android:textColor="#0570A1"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#121315"
+        android:text="Tanggal Pennyewaan" />
+
+    <EditText
+        android:id="@+id/editTextTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tanggal"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:textColor="#231F1F"
+        android:text="Pilih Jenis Baju" />
+
+    <Spinner
+        android:id="@+id/spinnerSektorusaha"
+        android:layout_width="match_parent"
+        android:textColor="#1E1B1B"
+        android:layout_height="wrap_content"
+        android:entries="@array/Baju" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#151313"
+        android:text="Pendapatan" />
+
+    <EditText
+        android:id="@+id/editTextPendapatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Masukkan Pendapatan Kotor"
+        android:textColor="#FFFFFF"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#1C1818"
+        android:text="Pengeluaran" />
+
+    <EditText
+        android:id="@+id/editTextPengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Masukkan Pengeluaran Harian"
+        android:textColor="#FFFFFF"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUpdatePenjualan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E91E63"/>
+
+</LinearLayout>

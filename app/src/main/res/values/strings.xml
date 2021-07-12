@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <array name="Baju">
+        <item>Penganten</item>
+        <item>Baju Tari</item>
+        <item>Baju Cosplay Anak-Anak</item>
+        <item>Baju Adat Riau</item>
+        <item>Baju Adat Bali</item>
+        <item>Baju Tari India</item>
+    </array>
+</resources>

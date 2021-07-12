@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#F69AB9">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Penyewaan :"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textViewTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#121111"
+            android:text="1 Januari 1999"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Baju :"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textViewSektorusaha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="5dp"
+            android:text="Makanan"
+            android:textColor="#131313"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendapatan Kotor :"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textViewPendapatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#0E0E0E"
+            android:text="IDR 2.000.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengeluaran Harian :"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textViewPengeluaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#101010"
+            android:text="IDR 1.400.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendapatan Bersih :"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#0C0B0B"
+            android:text="IDR 600.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TimeStamp :"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textViewJoiningDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#120F0F"
+            android:text="2021-05-28 10:00:00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/buttonEditPenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#1C0606"
+            android:backgroundTint="#03A9F4"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/buttonDeletePenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#bb2205"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
